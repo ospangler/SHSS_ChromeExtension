@@ -1,6 +1,18 @@
 {
     "name": "Staples High School Schedule",
     "version": "1.0",
-    "description": "Displays the schedule at SHS. By Owen Spangler.",
-    "manifest_version": 2
+    "description": "Displays the schedule at SHS.",
+    "author": "Owen Spangler",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": {
+        "19": "images/19.png",
+        "38": "images/38.png"
+      },
+      "default_popup": "html/popup.html"
+    },
+    "icons": { 
+      "16": "images/16.png",
+      "48": "images/48.png",
+      "128": "images/128.png" }
   }
